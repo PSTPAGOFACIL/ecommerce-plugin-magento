@@ -1,7 +1,0 @@
-"The status of the order is pending, waiting to process the payment by  Pago Fácil", "El estado de la orden es pendiente, esperando procesar el pago por Pago Fácil",
-"Development", "Desarrollo",
-"Production", "Producción",
-"User token", "Token de usuario",
-"Payment options","Opciones de pago",
-"Value defined in the <a href="https://dashboard-dev.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.","Valor definido en los <a href="https://dashboard-dev.pagofacil.cl/servicios-tbk" target="_blank">detalles del servicio</a>.",
-"Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>","Id del <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">servicio</a>"
