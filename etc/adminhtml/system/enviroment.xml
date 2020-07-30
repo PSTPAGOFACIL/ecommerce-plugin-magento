@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright  2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <group id="enviroment_g" translate="label" type="text" sortOrder="8" showInDefault="1" showInWebsite="1" showInStore="1">
+        <label>Enviroments</label>
+        <group id="development" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Development</label>
+            <field id="token_service" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Token Service</label>
+                <comment>
+                    <![CDATA[Value defined in the <a href="https://dashboard-dev.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.]]>
+                </comment>
+            </field>
+            <field id="token_secret" translate="label" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Token Secret</label>
+                <comment>
+                    <![CDATA[Value defined in the <a href="https://dashboard-dev.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.]]>
+                </comment>
+            </field>
+        </group>
+        <group id="production" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Production</label>
+            <field id="token_service" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Token Service</label>
+                <comment>
+                    <![CDATA[Value defined in the <a href="https://dashboard.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.]]>
+                </comment>
+            </field>
+            <field id="token_secret" translate="label" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Token Secret</label>
+                <comment>
+                    <![CDATA[Value defined in the <a href="https://dashboard.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.]]>
+                </comment>
+            </field>
+        </group>
+    </group>
+</include>

@@ -1,0 +1,7 @@
+"The status of the order is pending, waiting to process the payment by  Pago Fácil", "The status of the order is pending, waiting to process the payment by  Pago Fácil",
+"Development", "Development",
+"Production", "Production",
+"User token", "User token",
+"Payment options","Payment options",
+"Value defined in the <a href="https://dashboard-dev.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.","Value defined in the <a href="https://dashboard-dev.pagofacil.cl/servicios-tbk" target="_blank">sevice details</a>.",
+"Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>","Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>"
