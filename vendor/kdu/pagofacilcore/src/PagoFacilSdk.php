@@ -3,8 +3,9 @@
 
 namespace PagoFacilCore;
 
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/Url.php";
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSDKException.php";
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/Transaction.php");
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/Url.php");
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSDKException.php");
 
 class PagoFacilSdk
 {

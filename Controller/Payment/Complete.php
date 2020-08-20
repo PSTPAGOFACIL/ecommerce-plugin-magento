@@ -17,7 +17,7 @@ use Magento\Framework\App\Request\InvalidRequestException;
 
 use PagoFacilCore\PagoFacilSdk;
 
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSdk.php";
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSdk.php");
 
 
 class Complete extends \Magento\Framework\App\Action\Action implements CsrfAwareActionInterface

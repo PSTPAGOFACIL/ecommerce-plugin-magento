@@ -4,7 +4,7 @@ namespace PagoFacil\PagoFacilChile\Controller\Payment;
 
 use PagoFacilCore\PagoFacilSdk;
 
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSdk.php";
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSdk.php");
 
 class PaymentMethod extends \Magento\Framework\App\Action\Action
 {

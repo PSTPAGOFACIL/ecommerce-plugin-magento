@@ -15,8 +15,8 @@ use Magento\Sales\Model\Order\Payment\Transaction;
 use PagoFacilCore\PagoFacilSdk;
 use PagoFacilCore\Transaction as PfcTransaction;
 
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSdk.php";
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/Transaction.php";
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/PagoFacilSdk.php");
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/Transaction.php");
 
 
 use PagoFacil\PagoFacilChile\Observer\DataAssignObserver;

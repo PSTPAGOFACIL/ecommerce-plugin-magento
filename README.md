@@ -11,7 +11,7 @@ Descargar desde el repositorio el plugin , descomprimir y renombrar el plugin a 
 
 Copiar el plugin dentro de la carpeta
 
-{Mangento Dir}/app/code
+{Mangento Dir}/app/code/PagoFacil (crear code/PagoFacil sino existe)
 
 
 ## Ejecutar los siguientes comandos ##

@@ -10,7 +10,7 @@ namespace PagoFacil\PagoFacilChile\Model\Factory;
 
 use PagoFacilCore\EnvironmentEnum;
 
-require "app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/EnvironmentEnum.php";
+require_once("app/code/PagoFacil/PagoFacilChile/vendor/kdu/pagofacilcore/src/EnvironmentEnum.php");
 
 class Connector
 {
